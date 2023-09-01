@@ -1,0 +1,75 @@
+<!DOCTYPE>
+<html lang="pl">
+
+<head>
+<meta charset:"UTF-8">
+<meta name="author" content="Alan Sochacki">
+<title>Formularz</title>
+<link>
+<script> </script>
+</head>
+
+<body>
+    <form action="mailto: alannatan12@gmail.com " method="post" enctype="text/plain"><div>
+        <!-- Podstawowe pole tekstowe -->
+        <input name="Imie">Podaj swoje imie<br>
+        <input name="Nazwisko">Podaj swoje nazwisko
+        <!-- Pole typu RADIO -->
+        <p>Podaj swoją płec:</p>
+        <input type="radio" name="Pleć" value="Kobieta">Kobieta
+        <input type="radio" name="Pleć" value="Mężczyzna">Mężczyzna
+        <!-- Pole typu RADIO -->
+        <p>Ile masz lat?</p>
+        <input type="radio" name="Wiek" value="mniej niż 15">mniej niż 15<br>
+        <input type="radio" name="Wiek" value="15-19">15-19<br>
+        <input type="radio" name="Wiek" value="20-29">20-29<br>
+        <input type="radio" name="Wiek" value="30-39">30-39<br>
+        <input type="radio" name="Wiek" value="40-60">40-60<br>
+        <input type="radio" name="Wiek" value="więcej niż 60">więcej niż 60 
+        <!-- Pole typu CHECKBOX -->
+        <p>Jaką lubisz muzykę (możesz zaznaczyć więcej możliwości)?</p>
+        <input type="checkbox" name="Muzyka" value="Rock">Rock<br>
+        <input type="checkbox" name="Muzyka" value="Heavy Metal">Heavy Metal<br>
+        <input type="checkbox" name="Muzyka" value="Pop">Pop<br>
+        <input type="checkbox" name="Muzyka" value="Techno">Techno<br>
+        <input type="checkbox" name="Muzyka" value="Muzyka poważna">Muzyka powazna<br>
+        <input type="checkbox" name="Muzyka" value="Inna">Inna (podaj jaka):
+        <input name="Muzyka">
+        <!-- Lista rozwijalna (typ podstawowy) z zaznaczoną opcją domyślną -->
+        <p>Jakiej przegladarki internetowej używasz?</p>
+        <select name="Przegladarka">
+            <option selected>Internet Explorer</option>
+            <option>Netscape</option>
+            <option>Opera</option>
+            <option>Mozilla</option>
+            <option>Inna</option>
+        </select>
+        <!-- Lista rozwijalna (typ rozszerzony) z zaznaczoną opcją domyślną i zmniejszoną wysokością -->
+        <p>Jakie znasz systemy operacyjne (możesz wybrać kilka opcji trzymając klawisz Ctrl)?</p>
+        <select name="System operacyjny" multiple size="3">
+            <option selected>Dos</option>
+            <option>Windows</option>
+            <option>Linux</option>
+            <option>Inny</option>
+        </select>
+        <fieldset>
+            <legend>Jakie jest Twoje hobby?</legend>
+    
+            <input type="checkbox" name="hobby" id="plywanie" value="plywanie"> <label for="plywanie">pływanie</label>
+            <input type="checkbox" name="hobby" id="programowanie" value="programowanie"> <label for="programowanie">programowanie</label>
+            <input type="checkbox" name="hobby" id="gry_komputrowe" value="gry_komputrowe"> <label for="gry_komputrowe">gry komputerowe</label>
+        </fieldset>    
+        <!-- Pole komentarza (o powiększonych rozmiarach oraz z tekstem domyślnym) -->
+        <p>Podaj swój komentarz:</p>
+        <textarea name="Komentarz" cols="50" rows="10">Proszę, wpisz tutaj jakiś komentarz...</textarea>
+        <br><br><br>
+        <!-- Przycisk WYŚLIJ -->
+        <input type="submit" value="Wyślij formularz">
+        <!-- Przycisk WYCZYŚĆ DANE -->
+        <input type="reset" value="Wyczyść dane">
+        </div></form>
+
+        <li><a href="file:///D:/stronka%20na%20informatyke/Pogromcaużywek.html">Strona główna</a></li>
+</body>
+
+</html>
