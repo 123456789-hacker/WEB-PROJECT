@@ -1,0 +1,3 @@
+:nega
+start
+goto: nega

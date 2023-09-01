@@ -1,0 +1,1 @@
+msgbox("kliknij ok")
